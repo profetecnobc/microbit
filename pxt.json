@@ -1,6 +1,6 @@
 {
     "name": "M1.R1 Emociona't amb la micro:bit!",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*",
