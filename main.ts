@@ -1,8 +1,7 @@
 basic.showString("Com et sents avui?")
 basic.pause(500)
 basic.showIcon(IconNames.Happy)
+music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.UntilDone)
 basic.pause(500)
 basic.showIcon(IconNames.Sad)
-basic.forever(function () {
-	
-})
+music.playSoundEffect(music.builtinSoundEffect(soundExpression.sad), SoundExpressionPlayMode.UntilDone)
